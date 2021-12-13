@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 220, 160), rgb(45, 66, 77));
+    background-size: cover;
+}
+
+h1 {
+    background: #724819;
+    color: white;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    padding: 0 35%;
+    border-color: rgb(29, 2, 51);
+}
+
+fieldset {
+    border: 3px solid rgb(30, 255, 98);
+
+}
+
+
+section {
+    margin-top: 5%;
+}
+
+label {
+    display: block;
+}
+
+
+
+
+text{
+    margin-bottom: 15px;
+    width: 180px;
+    height: 30px;
+
+}
+
+
+select {
+    margin: 0px auto 15px;
+    width: 180px;
+    margin: center;
+}
+
+
+label {
+    margin: 0px 10px 0 0;
+    color: white;
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+legend{
+    color: white;
+}
+
+button {
+    margin: 2px, 2px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    width: 80%;
+}
+
+#btn {
+
+    background: #721919;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    cursor: pointer
+}
+
+#btn:hover {
+    background: #04335a;
+}
+
+
+#reset {
+
+    background: #194a72;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#reset:hover {
+    background: #5a3c04;
+}
+
+#card {
+    height: 600px;
+    margin: 50px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgba(17, 17, 19, 0.445);
+    min-height: 100px;
+    display: none;
+    letter-spacing: 2px;
+
+}
+#imgTag {
+    background-size: 200px;
+    width: 300px;
+    height: 200px;
+}
+
+@media(max-width:1510px){
+    form, input {
+        width: 100%;
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 770px){
+    body {
+        background: #3e1688;
+    }
+
+   
+   
+}

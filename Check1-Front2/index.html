@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GabrielaSchneider</title>
+</head>
+
+<body>
+    <h1>Você tem algo para Doar?</h1>
+    <main class="container">
+        <section>
+            <form>
+                <fieldset>
+                    <div class="dados">
+
+                        <label for="nome" class="labelInput">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu Nome"><br>
+                        <label for="sobrenome" class="labelInput">Cidade:</label>
+                        <input type="text" name="nome" id="sobrenome" placeholder="Digite sua Cidade"><br>
+                        <label for="image" class="labelInput">Imagem:</label>
+                        <input type="url" name="image" id="image" class="inputUser"
+                            placeholder="Cole aqui a URL da imagem do produto para doação"><br>
+                        <p>exemplo: https://png.pngtree.com/element_origin_min_pic/17/02/27/a912e1a40794b4be4ef8b79a67182b03.jpg<br>
+                        </p>    
+                            
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tipo de Produto</legend>
+                    <div>
+                        
+                        <input type="radio" name="tamanho" value="Alimento" >Alimento ou Vestuário</input>
+                        <input type="radio" name="tamanho" value="Higiene" >Material de Higiene ou Limpeza</input>
+                        <input type="radio" name="tamanho" value="Móvel" >Móvel ou Eletro</input>
+                      </div>
+                </fieldset>
+                <button type="submit" name="submit" id="btn">Selecionar</button>
+                <button type="reset" name="reset" id="res">Cancelar</button>
+
+            </form>
+            <div id="card">
+                <p id="nome1"></p>
+                <br>
+                <p id="sobrenome1"></p>
+                <br>
+                <p id="tam1"></p>
+                <br>
+                <img id="imgTag" src="" alt="">
+                <p id="desc"></p>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
